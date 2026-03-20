@@ -7,3 +7,12 @@ while(employees[i]) {
     console.log(`Name: ${employees[i].firstName} ${employees[i].lastName}`);
     i++;
 }
+
+console.log ('------');
+
+//Basic do-while loop
+i = 0;
+do{
+    console.log(`Name: ${employees[i].firstName} ${employees[i].lastName}`);
+    i++;
+} while(employees[i]);
